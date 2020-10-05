@@ -1,0 +1,271 @@
+[33mcommit 2c7ca30a66808760ec44c7dd3fc8fe35cdd2acfe[m[33m ([m[1;36mHEAD -> [m[1;32mprashant_dev1[m[33m, [m[1;31morigin/prashant_dev1[m[33m)[m
+Author: girish <labeesingh@gmail.com>
+Date:   Sat Jun 30 16:36:08 2018 +0530
+
+    Uploading changes related to SEO Library (Dynamic Meta keywords                                                                                                                and in the create Post added datepicker)
+
+[33mcommit 0256cda577c83cbf4021bb6f9c603e6857b199ff[m[33m ([m[1;31morigin/prashant_develop[m[33m)[m
+Merge: 046df45e 8ad577ab
+Author: Labee Singh <labeesingh@gmail.com>
+Date:   Tue Jun 26 23:26:08 2018 +0530
+
+    uploading email changes
+
+[33mcommit 046df45e92d42b413a46a45577898558678a9490[m
+Author: Labee Singh <labeesingh@gmail.com>
+Date:   Tue Jun 26 22:53:39 2018 +0530
+
+    Uploading Email Changes
+
+[33mcommit 8ad577ab59500eda53799ccd3423a0757924f237[m
+Author: webstar1987923 <webstar1987923@hotmail.com>
+Date:   Mon Jun 25 11:16:02 2018 +0300
+
+    fixed social wall issues
+
+[33mcommit 1aa098bbf962bb2c96d9824fa93da595fbb1f9de[m
+Author: webstar1987923 <webstar1987923@hotmail.com>
+Date:   Sun Jun 24 18:18:09 2018 +0300
+
+    .
+
+[33mcommit b3436355ce07f87d8f86a602ae6988bab17de3c9[m
+Author: webstar1987923 <webstar1987923@hotmail.com>
+Date:   Sun Jun 24 18:05:28 2018 +0300
+
+    added some translations
+
+[33mcommit 81a28bf48ca7a136cfb141ba904658439051be17[m
+Author: webstar1987923 <webstar1987923@hotmail.com>
+Date:   Thu Jun 21 16:33:25 2018 +0300
+
+    .
+
+[33mcommit 381294b742b2428e843bb4be6651aa2a5601a531[m
+Author: webstar1987923 <webstar1987923@hotmail.com>
+Date:   Thu Jun 21 00:56:05 2018 +0300
+
+    Fixed some small issues
+
+[33mcommit e64d1f8353ec845c80a370b1b0254b41e0ffc507[m
+Author: webstar1987923 <webstar1987923@hotmail.com>
+Date:   Tue Jun 19 04:17:46 2018 +0300
+
+    added language files
+
+[33mcommit 4ae110bbccae1f1cbc663bd5e73b5750459e9a0b[m
+Merge: ff7a6232 6211d1f7
+Author: webstar1987923 <webstar1987923@hotmail.com>
+Date:   Mon Jun 18 13:08:21 2018 +0300
+
+    Merge branch 'develop' of gitlab.com:itellico/2.go-models.com into develop
+
+[33mcommit ff7a6232359e3545ecb3bde62c3a9df84fe9af32[m
+Author: webstar1987923 <webstar1987923@hotmail.com>
+Date:   Mon Jun 18 13:08:15 2018 +0300
+
+    fixed packages issue
+
+[33mcommit 6211d1f7daf7ab6608dff6ae9e577fa6bc4c95b9[m
+Merge: 7f7ae3bf fc97d5b3
+Author: web <webstar1987923@hotmail.com>
+Date:   Sat Jun 16 19:13:59 2018 +0000
+
+    Merge branch 'test_sedcard_new' into 'develop'
+    
+    Resolve Filname Error
+    
+    See merge request itellico/2.go-models.com!31
+
+[33mcommit fc97d5b3d28eb999bbdd59b215e4c6d4e7ebe142[m
+Author: ExpertTeam India <expertteamindia@gmail.com>
+Date:   Sun Jun 17 00:38:00 2018 +0530
+
+    Resolve Filname Error
+
+[33mcommit 7f7ae3bf51093589bfbe7b644144c252a86463ec[m
+Merge: 21916a95 74d61166
+Author: webstar1987923 <webstar1987923@hotmail.com>
+Date:   Sat Jun 16 16:47:13 2018 +0300
+
+    Merge branch 'develop' of gitlab.com:itellico/2.go-models.com into develop
+
+[33mcommit 21916a958d67bb70767f6f64616741bd212386dd[m
+Author: webstar1987923 <webstar1987923@hotmail.com>
+Date:   Sat Jun 16 16:47:05 2018 +0300
+
+    updated translations
+
+[33mcommit 74d611668d589626af31cfa08b9530c8c258dd13[m
+Merge: 569d130e 9343126d
+Author: web <webstar1987923@hotmail.com>
+Date:   Sat Jun 16 09:59:34 2018 +0000
+
+    Merge branch 'test_sedcard_new' into 'develop'
+    
+    Test sedcard new
+    
+    See merge request itellico/2.go-models.com!30
+
+[33mcommit 9343126d10b4eb54189bc9b849972322e1c8e3ef[m
+Author: ExpertTeam India <expertteamindia@gmail.com>
+Date:   Sat Jun 16 00:53:19 2018 +0530
+
+    Sedcard Set Names
+
+[33mcommit 3ab3d9103107fc1c09c9aff1ddc2d1f7a1823dc8[m
+Author: ExpertTeam India <expertteamindia@gmail.com>
+Date:   Fri Jun 15 21:57:44 2018 +0530
+
+    Resolve Twitter Error
+
+[33mcommit 569d130e17051386943b2805d2e84e97abe6e2bb[m
+Author: webstar1987923 <webstar1987923@hotmail.com>
+Date:   Fri Jun 15 14:07:59 2018 +0300
+
+    .
+
+[33mcommit 0d996d351a387a4cd878a91715a8d15c686f1e24[m
+Author: webstar1987923 <webstar1987923@hotmail.com>
+Date:   Thu Jun 14 17:25:26 2018 +0300
+
+    patner-list contact form added
+
+[33mcommit f8e21b5bf81fe1507946f11e07d43b510a4d82d4[m
+Merge: a18041f5 2e5aebc5
+Author: web <webstar1987923@hotmail.com>
+Date:   Wed Jun 13 18:07:01 2018 +0000
+
+    Merge branch 'test_sedcard_new' into 'develop'
+    
+    Social sedcard
+    
+    See merge request itellico/2.go-models.com!29
+
+[33mcommit 2e5aebc5c3299f20f2e500eb9a0d1b79aec49fef[m
+Author: ExpertTeam India <expertteamindia@gmail.com>
+Date:   Wed Jun 13 23:04:09 2018 +0530
+
+    Social sedcard
+
+[33mcommit a18041f5a6fc8485c5604f716c83b829d736d385[m
+Author: webstar1987923 <webstar1987923@hotmail.com>
+Date:   Wed Jun 13 13:57:42 2018 +0300
+
+    .
+
+[33mcommit df0e55357297f05c67355c52d626c3eedde8bcc7[m
+Author: webstar1987923 <webstar1987923@hotmail.com>
+Date:   Wed Jun 13 13:53:44 2018 +0300
+
+    .
+
+[33mcommit c8c4635e1b2978af110d59610a96779d04ab0587[m
+Author: webstar1987923 <webstar1987923@hotmail.com>
+Date:   Wed Jun 13 13:31:48 2018 +0300
+
+    .
+
+[33mcommit d88b6248a3e06ce69085e7222879f3565243ba59[m
+Merge: edd98387 1153818c
+Author: webstar1987923 <webstar1987923@hotmail.com>
+Date:   Wed Jun 13 11:21:59 2018 +0300
+
+    Merge branch 'develop' of gitlab.com:itellico/2.go-models.com into develop
+
+[33mcommit edd98387dc728391a834d04663669ea44aa68120[m
+Author: webstar1987923 <webstar1987923@hotmail.com>
+Date:   Wed Jun 13 11:21:51 2018 +0300
+
+    added aga Range to model-list
+
+[33mcommit 1153818cd0ff7db4862e0907763c878987e6fdc8[m
+Merge: 822d17c8 8299dbd0
+Author: web <webstar1987923@hotmail.com>
+Date:   Wed Jun 13 06:36:19 2018 +0000
+
+    Merge branch 'test_sedcard_new' into 'develop'
+    
+    Test sedcard new
+    
+    See merge request itellico/2.go-models.com!28
+
+[33mcommit 8299dbd0ff34d778f307a7aa7074933bc596c536[m
+Author: ExpertTeam India <expertteamindia@gmail.com>
+Date:   Wed Jun 13 11:27:54 2018 +0530
+
+    Seccard
+
+[33mcommit 822d17c828b82b830f3a725f7750aeb3ad441089[m
+Author: webstar1987923 <webstar1987923@hotmail.com>
+Date:   Tue Jun 12 23:38:01 2018 +0300
+
+    added range fileds
+
+[33mcommit d7ac766352e197dc2eebdc1c27d3f2ee5bb310ad[m
+Author: webstar1987923 <webstar1987923@hotmail.com>
+Date:   Tue Jun 12 15:37:15 2018 +0300
+
+    updated model-list
+
+[33mcommit 994b0757100aada39446b7dc3e3b04d1b1110ea9[m
+Author: ExpertTeam India <expertteamindia@gmail.com>
+Date:   Sat Jun 9 10:33:46 2018 +0530
+
+    Resolve sedcard error
+
+[33mcommit fe965219ffcb004ccf46f6a008a004f63b628762[m
+Author: webstar1987923 <webstar1987923@hotmail.com>
+Date:   Fri Jun 8 18:16:13 2018 +0300
+
+    added model-list
+
+[33mcommit dbcaeac58286d89ddea7557abef5a97a5b98ac11[m
+Author: webstar1987923 <webstar1987923@hotmail.com>
+Date:   Fri Jun 8 15:10:25 2018 +0300
+
+    added sedcard and modelbook link to application page
+
+[33mcommit 15fc67578b04b8b0028332968de2aa8bac0cc2ed[m
+Merge: 34b78887 c4fb876b
+Author: web <webstar1987923@hotmail.com>
+Date:   Fri Jun 8 10:09:07 2018 +0000
+
+    Merge branch 'test_sedcard_new' into 'develop'
+    
+    Change Root and Social Wall
+    
+    See merge request itellico/2.go-models.com!27
+
+[33mcommit c4fb876b8f31788674ef199e97ca97f71d56976e[m
+Author: ExpertTeam India <expertteamindia@gmail.com>
+Date:   Fri Jun 8 11:01:22 2018 +0530
+
+    Change Root and Social Wall
+
+[33mcommit 615d179043a8ca49a35a8585a9e510e60c9058a5[m
+Merge: 3656fa13 34b78887
+Author: web <webstar1987923@hotmail.com>
+Date:   Thu Jun 7 18:28:12 2018 +0000
+
+    Merge branch 'develop' into 'test_sedcard_new'
+    
+    added categories for model and partner
+    
+    See merge request itellico/2.go-models.com!26
+
+[33mcommit 34b7888722a192142f6be9a6a6d7f041cda23b1a[m
+Author: webstar1987923 <webstar1987923@hotmail.com>
+Date:   Thu Jun 7 21:08:17 2018 +0300
+
+    added categories for model and partner
+
+[33mcommit 58a78212149fc8170a9a4624ca4d150fb353eec8[m
+Author: webstar1987923 <webstar1987923@hotmail.com>
+Date:   Thu Jun 7 17:46:12 2018 +0300
+
+    added installation guide
+
+[33mcommit 3656fa1339553c0bb2bb104177824897773dae1c[m
+Merge: 5c8d5bb2 300f4757
+Author: web <webstar1987923@hotm

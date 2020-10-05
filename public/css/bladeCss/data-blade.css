@@ -1,0 +1,87 @@
+/*#cs_birthday span.select2.select2-container.select2-container--default{ width: 33% !important; padding-right: 10px !important; }*/
+p.help-block { color: red; }
+.upload-btn-wrapper { position: relative; overflow: hidden; display: inline-block;height: 55px; }
+.upload-btn-wrapper input[type=file] {font-size: 100px;position: absolute;left: 0;top: 0;opacity: 0;padding: 0px 0px 20px 0px;}
+.rotate {padding: 5px;}
+#image_demo {width: 300px;padding: 0 !important;}
+.croppie-container .cr-slider-wrap {width: 100%;}
+.modal-body1 {padding-left: 100px;padding-right: 100px;}
+.modal-dialog {width: 500px;margin: 1rem auto;}
+@media (max-width: 576px) {
+    .modal-dialog {width: 360px;margin: 0.5rem auto;}
+    .modal-body1 {padding-left: 30px;padding-right: 30px;}
+    #image_demo {width: 300px;}
+}
+@media (max-width: 360px) {
+    .modal-dialog {width: 310px;margin: 0.5rem auto;}
+    #image_demo {width: 250px;}
+    .btn.no-bg {padding: 0 24px !important;}
+}
+
+.input-group{
+    margin-bottom: 15px;
+}
+.select2-container .select2-selection--single .select2-selection__rendered{
+    padding-left: 0px !important;
+}
+.color-gray{
+    color: #D8D8D8;
+}
+
+input[type=email], input[type=password], input[type=text]{
+	height: 38px !important;
+}
+
+.autocomplete-results {
+    margin: 0 auto;
+    right: 0;
+    left: 0;
+    position: absolute;
+    display: none;
+    background-color: white;
+    padding: 0;
+    list-style-type: none;
+    margin: 0 auto; 
+    border-top: 0;
+    box-sizing: border-box;
+    z-index: 99999;
+    padding-right: 8px;
+    padding-left: 8px;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+
+.autocomplete-item {
+    padding: 5px 5px 5px 35px;
+    line-height: 26px;
+    border-bottom: 1px solid #d9d9d9;
+    position: relative;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.autocomplete-icon {
+  display: block;
+  position: absolute;
+  top: 7px;
+  bottom: 0;
+  left: 8px;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.autocomplete-icon.icon-localities {
+  background-image: url(/images/icons/locality.svg);
+}
+
+.autocomplete-item:hover .autocomplete-icon.icon-localities {
+  background-image: url(/images/icons/locality-selected.svg);
+}
+
+.autocomplete-item:hover {
+  /*background-color: #f2f2f2;*/
+  background-color: #5897fb;
+  cursor: pointer;
+}

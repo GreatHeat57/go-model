@@ -1,0 +1,127 @@
+/*Mobile menu*/
+@media (min-width: 414px) {
+    /* set code for header text */
+    #loggedin-header .add_new.d-sm-inline-block {
+        display: none !important;
+    }
+    /* set code for header text */
+    .mobile-menu .d-sm-none {
+        display: block !important;
+    }
+}
+@media (min-width: 768px) {
+    /* set code for header text */
+    #loggedin-header nav.d-md-block {
+        display: none !important;
+    }
+    /* set code for header text */
+    #loggedin-header .mobile-menu-button.d-md-none {
+        display: inline-block !important;
+    }
+    /* set code for header text */
+    .mobile-menu .d-sm-none {
+        display: block !important;
+    }
+}
+@media (min-width: 980px) {
+    /* set code for header text */
+    #loggedin-header nav.d-md-block {
+        display: block !important;
+    }
+    /* set code for header text */
+    #loggedin-header .mobile-menu-button.d-md-none {
+        display: none !important;
+    }
+    /* set code for header text */
+    #loggedin-header .d-lg-inline-block.message-btn, .d-lg-inline-block.notif-btn {
+        /* displayed enquiries and msg icon in header until mobile menu is not displaying */
+        display: inline-block !important;
+    }
+    /* set code for header text */
+    #loggedin-header .add_new.d-sm-inline-block {
+        display: inline-block !important;
+    }
+}
+
+@media (min-width: 980px) and (max-width: 1599.98px) {
+    /* set code for header text */
+    #loggedin-header nav.d-md-block {
+        display: block !important;
+    }
+    /* set code for header text */
+    #loggedin-header .mobile-menu-button.d-md-none {
+        display: none !important;
+    }
+    /* set code for header text */
+    #loggedin-header .d-lg-inline-block.message-btn, .d-lg-inline-block.notif-btn {
+        /* displayed enquiries and msg icon in header until mobile menu is not displaying */
+        display: inline-block !important;
+    }
+    /* set code for header text */
+    #loggedin-header .add_new.d-sm-inline-block {
+        display: inline-block !important;
+    }
+}
+@media (min-width: 1600px) {
+    /* set code for header text */
+    #loggedin-header nav.d-md-block {
+        display: block !important;
+    }
+    /* set code for header text */
+    #loggedin-header .mobile-menu-button.d-md-none {
+        display: none !important;
+    }
+    /* set code for header text */
+    #loggedin-header .d-lg-inline-block.message-btn, .d-lg-inline-block.notif-btn {
+        /* displayed enquiries and msg icon in header until mobile menu is not displaying */
+        display: inline-block !important;
+    }
+    /* set code for header text */
+    #loggedin-header .add_new.d-sm-inline-block {
+        display: inline-block !important;
+    }
+}
+@media (min-width: 768px) {
+    /* set code for header text */ 
+    #loggedin-header .justify-content-between {
+        -webkit-box-pack: justify !important;
+        -ms-flex-pack: justify !important;
+        justify-content: space-between !important;
+    } 
+}
+@media (min-width: 1024px){
+    /* set code for header text */
+    #loggedin-header .justify-content-md-start {
+        -webkit-box-pack: start !important;
+        -ms-flex-pack: start !important;
+        justify-content: flex-start !important;
+    }
+}
+@media(min-width: 980px) and (max-width: 1219px) {
+    /* set code for header text */
+    #loggedin-header nav.d-md-block {
+      display: none !important;
+    }
+    #loggedin-header .mobile-menu-button.d-md-none {
+        display: inline-block !important;
+    }
+    /* set code for header text */
+    .mobile-menu .d-sm-none {
+      display: block !important;
+    }
+    /* set code for header text */
+    #loggedin-header .d-lg-inline-block.message-btn, .d-lg-inline-block.notif-btn {
+      /* displayed enquiries and msg icon in header until mobile menu is not displaying */
+      display: none !important;
+    }
+    /* set code for header text */
+    #loggedin-header .add_new.d-sm-inline-block {
+      display: none !important;
+    }
+    /* set code for header text */
+    #loggedin-header .justify-content-between {
+        -webkit-box-pack: justify !important;
+        -ms-flex-pack: justify !important;
+        justify-content: space-between !important;
+    }
+}

@@ -1,0 +1,84 @@
+// queries
+$br-mobile: 320px;
+$br-mobile-big: 414px;
+$br-tablet: 768px;
+$br-desktop: 980px;
+$br-desktop-big: 1400px;
+
+$br-mobile-max: max-width $br-mobile;
+$br-mobile-big-max: max-width $br-mobile-big;
+$br-tablet-max: max-width $br-tablet;
+$br-desktop-max: max-width $br-desktop;
+$br-desktop-big-max: max-width $br-desktop-big;
+
+// colors
+$primary-color: #171717;
+$secondary-color: #f4eae3;
+$footer-color: #b5b5b5;
+$blue: #b8c7f1;
+$blue-light: rgba(184,199,241,.4);
+$blue-dark: #1445d0;
+$blue-dark-hover: #2152db;
+$green: #06c67b;
+$green-light: #11d488;
+$button-border: #c2c2c2;
+$button-border2: #c9c9c9;
+$block: #fae2d2;
+$block2: #ffe9e5;
+$block-very-light-blue: #f3f4f6;
+$block-light-blue: $blue-light;
+$block-light-blue2: rgb(241,246,250);
+$block-light: #f6ece5;
+$block-gray: #efeee8;
+$link-border: #a1a1a1;
+$tab-border: #e0e0e0;
+$input-border: #d0d0d0;
+$brand-border: #c5c5c5;
+$bullet-blue: #d8e0f4;
+$tag-blue: #e8ebf1;
+
+$category-models: $blue;
+$category-kids-models: #d3eaae;
+$category-baby-models: #f6d4de;
+
+// fonts
+$f-small: 12px;
+$f-ssmaller: 13px;
+$f-smaller: 14px;
+$f-smaller2: 15px;
+$f-normal: 16px;
+$f-sbigger: 17px;
+$f-bigger: 18px;
+$f-sbig: 20px;
+$f-mbig: 22px;
+$f-mmbig: 23px;
+$f-big: 25px;
+$f-bbig: 28px;
+$f-lbig: 30px;
+$f-xshuge: 33px;
+$f-shuge: 35px;
+$f-xmhuge: 40px;
+$f-xxmhuge: 42px;
+$f-mhuge: 43px;
+$f-huge: 45px;
+
+// line heights
+$lh-mini: 14px;
+$lh-lmini: 17px;
+$lh-small: 20px;
+$lh-smaller: 24px;
+$lh-normal: 26px;
+$lh-bigger: 28px;
+$lh-sbig: 30px;
+$lh-big: 35px;
+$lh-bbig: 38px;
+$lh-mbig: 40px;
+$lh-xshuge: 43px;
+$lh-shuge: 45px;
+$lh-mhuge: 48px;
+$lh-huge: 60px;
+
+// borders
+$def-border-size: 1px;
+$double-border-size: 2px;
+$triple-border-size: 3px;

@@ -1,0 +1,21 @@
+/* Header title container style */
+.subcover.colored-very-light-blue {background: #f3f4f6;}
+.subcover.colored-light{background: #f6ece5;}
+.subcover.smaller {padding: 40px 10px;}
+@media (min-width: 980px){ .subcover { padding: 90px 0; } }
+@media (min-width: 768px){ .subcover { padding: 50px 15px; } }
+.subcover {padding: 40px 10px;}
+/*header {height: 80px !important;}*/
+.subcover h1 {margin: 0;}
+@media (min-width: 1400px){ h1 { font-size: 45px; line-height: 60px; }}
+@media (min-width: 980px){ h1 { font-size: 40px; line-height: 48px; }}
+@media (min-width: 768px){ h1 { font-size: 35px; line-height: 45px; }}
+h1 {font-family: prataregular,arial,tahoma;padding: 0 0 35px;margin: 0 15px 70px;position: relative;text-align: center;font-size: 28px;line-height: 38px;}
+/* Header title container style end*/
+/* additional style for form validation */
+.invalid-input { color: #fa4754; border-bottom: 1px solid #fa4754;}
+.form-select { display: block; width: 100%; height: 36px; outline: none;  resize: none; -webkit-appearance: none; border-radius: 0; border: 0; border-bottom: 1px solid #d0d0d0; font-family: work_sansregular,arial,tahoma; font-size: 16px;padding: 0;margin: 0; }
+.birthdayPicker { display: inline-block !important; width: 100%; }
+.select2-container { width: 100% !important; }
+.cs_birthday-drop { width: 28% !important; }
+/* Additional style end */

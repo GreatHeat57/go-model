@@ -1,0 +1,257 @@
+footer {
+  .follow-us {
+    .inner {
+      margin: 0 auto;
+      padding: 0 0 100px;
+      @include breakpoint($br-tablet) {
+        text-align: center;
+        max-width: 712px;
+      }
+      @include breakpoint($br-desktop) {
+        max-width: 900px;
+      }
+      @include breakpoint($br-desktop-big) {
+        max-width: 840px;
+      }
+      ul {
+        width: 200px;
+        margin: 0 auto;
+        @include breakpoint($br-tablet) {
+          width: auto;
+          margin: 0;
+        }
+        li {
+          display: block;
+          margin-bottom: 20px;
+          @include breakpoint($br-tablet) {
+            display: inline-block;
+            margin: 0 30px;
+          }
+          @include breakpoint($br-desktop) {
+            margin: 0 64px;
+          }
+          &:first-of-type {
+            @include breakpoint($br-tablet) {
+              margin-left: 0;
+            }
+          }
+          &:last-of-type {
+            margin-bottom: 0;
+            @include breakpoint($br-tablet) {
+              margin-right: 0;
+            }
+          }
+          a {
+            position: relative;
+            display: block;
+            min-width: 60px;
+            height: 60px;
+            line-height: 60px;
+            padding: 0 0 0 75px;
+            font-family: $work_sansbold;
+            font-size: $f-bigger;
+            @include breakpoint($br-tablet) {
+              width: auto;
+              font-size: 0;
+              line-height: 0;
+              padding: 0;
+            }
+            &:before {
+              position: absolute;
+              top: 0;
+              left: 0;
+              border: $double-border-size solid $blue-light;
+              @include border-radius(50%);
+              font-size: $f-bigger;
+              content: ' ';
+              display: block;
+              width: 56px;
+              height: 56px;
+            }
+            &:hover {
+              &:before {
+                border-color: $blue;
+              }
+            }
+            &.facebook {
+              &:before {
+                background: url(/images/icons/facebook.png) center center no-repeat;
+                background-size: 10px;
+              }
+            }
+            &.instagram {
+              &:before {
+                background: url(/images/icons/instagram.png) center center no-repeat;
+                background-size: 19px;
+              }
+            }
+            &.twitter {
+              &:before {
+                background: url(/images/icons/twitter.png) center center no-repeat;
+                background-size: 21px;
+              }
+            }
+            &.pinterest {
+              &:before {
+                background: url(/images/icons/pinterest.png) center center no-repeat;
+                background-size: 21px;
+              }
+            }
+            &.youtube {
+              &:before {
+                background: url(/images/icons/youtube.png) center center no-repeat;
+                background-size: 23px;
+              }
+            }
+            &:hover {
+              border-color: $blue;
+            }
+          }
+        }
+      }
+    }
+  }
+  .links {
+    background: $primary-color;
+    .inner {
+      margin: 0 auto;
+      display: flex;
+      padding: 40px 10px;
+      @include breakpoint($br-tablet) {
+        padding: 50px 0;
+        max-width: 712px;
+      }
+      @include breakpoint($br-desktop) {
+        padding: 70px 0;
+        max-width: 900px;
+      }
+      @include breakpoint($br-desktop-big) {
+        padding: 100px 0;
+        max-width: 840px;
+      }
+      .col {
+        color: white;
+        display: none;
+        text-align: center;
+        flex: 1 1 span(12);
+        &:last-of-type {
+          display: block;
+        }
+        @include breakpoint($br-tablet) {
+          text-align: left;
+          display: block;
+          flex: 1 1 span(3);
+          padding-right: 10px;
+        }
+        h6 {
+          margin: 0 0 15px;
+          font-family: $work_sansbold;
+          text-transform: none;
+          font-size: $f-normal;
+          line-height: $lh-normal;
+          @include breakpoint($br-tablet) {
+            font-size: $f-bigger;
+            line-height: $lh-bigger;
+          }
+        }
+        ul {
+          margin: 0;
+          padding: 0;
+          li {
+            display: block;
+            margin: 0 0 15px;
+            &:last-of-type {
+              margin: 0;
+            }
+            a {
+              display: inline-block;
+              color: $footer-color;
+              text-decoration: none;
+              &:hover {
+                text-decoration: underline;
+              }
+            }
+          }
+        }
+        .get-help {
+          display: inline-block;
+          height: 58px;
+          line-height: 58px;
+          padding: 0 30px;
+          @include border-radius(2px);
+          border: $def-border-size solid rgba(255,255,255,.9);
+          font-family: $work_sansbold;
+          font-size: $f-bigger;
+          color: white;
+          text-decoration: none;
+          margin-top: 40px;
+          &:hover {
+            background: white;
+            color: $primary-color;
+          }
+        }
+      }
+    }
+  }
+  .about {
+    background: $secondary-color;
+    .inner {
+      margin: 0 auto;
+      font-size: $f-smaller;
+      line-height: $lh-smaller;
+      padding: 40px 21px;
+      @include breakpoint($br-tablet) {
+        padding: 50px 0;
+        max-width: 712px;
+      }
+      @include breakpoint($br-desktop) {
+        padding: 60px 0;
+        max-width: 900px;
+      }
+      @include breakpoint($br-desktop-big) {
+        padding: 70px 0;
+        max-width: 840px;
+      }
+      .logo {
+        display: block;
+        width: 125px;
+        margin: 0 auto 35px;
+      }
+      p {
+        margin-bottom: 30px;
+      }
+      .warranty {
+        text-align: center;
+        img {
+          display: inline-block;
+          margin: 0 7px;
+          max-width: 75px;
+          @include breakpoint($br-tablet) {
+            max-width: 117px;
+          }
+        }
+      }
+    }
+  }
+  .copyright {
+    .inner {
+      margin: 0 auto;
+      font-size: $f-smaller;
+      line-height: $lh-smaller;
+      text-align: center;
+      padding: 30px 35px;
+      @include breakpoint($br-tablet) {
+        padding: 40px 80px;
+        max-width: 712px;
+      }
+      @include breakpoint($br-desktop) {
+        padding: 50px 0;
+        max-width: 900px;
+      }
+      @include breakpoint($br-desktop-big) {
+        padding: 60px 0;
+        max-width: 840px;
+      }
+    }
+  }
+}

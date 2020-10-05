@@ -1,0 +1,129 @@
+{
+	"name": "bedigit/jobclass",
+	"description": "Geolocalized Job Board Script.",
+	"keywords": [
+		"jobs",
+		"classified",
+		"cms",
+		"laravel",
+		"php"
+	],
+	"license": "Envato",
+	"type": "project",
+	"require": {
+		"php": "^7.2",
+		"astrotomic/laravel-translatable": "^11.7",
+		"aws/aws-sdk-php": "^3.133",
+		"barryvdh/laravel-dompdf": "^0.8.5",
+		"barryvdh/laravel-elfinder": "^0.4.4",
+		"barryvdh/laravel-translation-manager": "^0.5.7",
+		"buzz/laravel-google-captcha": "^2.2",
+		"chriskonnertz/open-graph": "^2.0",
+		"cocur/slugify": "^3.1",
+		"creativeorange/gravatar": "^1.0",
+		"cviebrock/eloquent-sluggable": "^6.0",
+		"doctrine/dbal": "^2.10",
+		"fideloper/proxy": "^4.2",
+		"google/cloud-translate": "^1.7",
+		"graham-campbell/flysystem": "^6.2",
+		"guzzlehttp/guzzle": "^6.5",
+		"ignited/laravel-omnipay": "^3.1",
+		"intervention/image": "^2.5",
+		"itsgoingd/clockwork": "^4.0",
+		"jackiedo/dotenv-editor": "^1.0",
+		"jaybizzle/laravel-crawler-detect": "^1.2",
+		"jenssegers/date": "^3.5",
+		"kickbox/kickbox": "^2.2",
+		"lab404/laravel-impersonate": "^1.2",
+		"laracasts/flash": "^3.0",
+		"laravel-notification-channels/twilio": "^2.0",
+		"laravel/framework": "6.*",
+		"laravel/helpers": "^1.2",
+		"laravel/socialite": "^4.3",
+		"laravel/tinker": "^1.0",
+		"laravelcollective/html": "6.*",
+		"league/csv": "^9.5",
+		"league/flysystem-aws-s3-v3": "^1.0",
+		"league/flysystem-rackspace": "^1.0",
+		"mcamara/laravel-localization": "^1.4",
+		"mews/purifier": "^3.1",
+		"mpdf/mpdf": "^8.0",
+		"nexmo/client": "^1.0",
+		"nickdnk/zerobounce-php": "^1.0",
+		"omnipay/paypal": "^3.0",
+		"omnipay/stripe": "^3.1",
+		"orangehill/iseed": "^2.6",
+		"prologue/alerts": "^0.4.5",
+		"propa/laravel-browscap": "^2.0",
+		"propaganistas/laravel-phone": "^4.2",
+		"pulkitjalan/geoip": "^4.0",
+		"renatomarinho/laravel-page-speed": "^1.8",
+		"sofa/eloquence": "^6.0",
+		"spatie/laravel-backup": "^6.0",
+		"spatie/laravel-cookie-consent": "^2.11",
+		"spatie/laravel-feed": "^2.1.0",
+		"spatie/laravel-image-optimizer": "^1.5",
+		"spatie/laravel-responsecache": "^6.3",
+		"stripe/stripe-php": "^7.24",
+		"torann/laravel-meta-tags": "^3.0",
+		"unicodeveloper/laravel-password": "^1.0",
+		"watson/sitemap": "^2.1"
+	},
+	"require-dev": {
+        "filp/whoops": "^2.0",
+        "fzaninotto/faker": "^1.4",
+        "mockery/mockery": "^1.0",
+        "nunomaduro/collision": "^2.0",
+        "phpunit/phpunit": "^7.0",
+        "symfony/css-selector": "^5.0",
+        "symfony/dom-crawler": "^5.0"
+	},
+	"autoload": {
+		"files": [
+			"app/Helpers/Functions/core.php",
+			"app/Helpers/Functions/admin.php",
+			"app/Helpers/Functions/wordpress.php",
+			"app/Helpers/Functions/plugin.php"
+		],
+		"classmap": [
+			"database"
+		],
+		"psr-4": {
+			"App\\": "app/",
+			"Larapen\\TextToImage\\": "packages/larapen/texttoimage/src/",
+			"Larapen\\LaravelLocalization\\": "packages/mcamara/laravel-localization/src/",
+			"Larapen\\LaravelMetaTags\\": "packages/torann/laravel-meta-tags/src/",
+			"Larapen\\Admin\\": "packages/larapen/admin/src/",
+			"Larapen\\Elfinder\\": "packages/barryvdh/laravel-elfinder/src/",
+			"Larapen\\Feed\\": "packages/spatie/laravel-feed/src/",
+			"Larapen\\Impersonate\\": "packages/lab404/laravel-impersonate/src/"
+		}
+	},
+	"autoload-dev": {},
+	"scripts": {
+		"post-root-package-install": [
+			"@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
+		],
+		"post-create-project-cmd": [
+			"@php artisan key:generate"
+		],
+		"post-autoload-dump": [
+			"Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
+			"@php artisan package:discover"
+		]
+	},
+	"config": {
+		"preferred-install": "dist",
+		"sort-packages": true,
+		"optimize-autoloader": true
+	},
+	"extra": {
+		"laravel": {
+			"dont-discover": [
+				"lab404/laravel-impersonate",
+				"mcamara/laravel-localization",
+				"spatie/laravel-feed"
+			]
+		}
+	}
+}

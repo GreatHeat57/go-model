@@ -1,0 +1,9 @@
+{
+    "name": "offlinepayment",
+    "version": "1.2",
+    "display_name": "Offline Payment",
+    "description": "Offline Payment (Bank Transfer, Check, Cash, etc.)",
+    "author": "Bedigit",
+    "category": "payment",
+    "has_installer": true
+}

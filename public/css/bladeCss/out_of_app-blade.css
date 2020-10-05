@@ -1,0 +1,8 @@
+.out-of-app-container { background: #f1f6fa; padding-bottom: 110px;margin-top: 70px; }
+.form .btn { display: block!important ; padding: 0px !important;}
+.form .btn:hover { box-shadow: none !important; }
+.form .btn button.green.next { line-height: initial !important; }
+#mobile-menu  .btn{ line-height: 1.75rem; display: block; height: auto; padding: 0.375rem 0.75rem;}
+#mobile-menu .scroll .buttons .btn a { width: 240px; }
+#mobile-menu .btn:hover{ box-shadow: none !important; }
+.pading-10{ padding: 10px; }

@@ -1,0 +1,10 @@
+<<<<<<< HEAD
+nuget/content/
+nuget/bootstrap-fileinput.*.nupkg
+.DS_Store
+=======
+nuget/content/
+nuget/bootstrap-fileinput.*.nupkg
+.DS_Store
+>>>>>>> 8ad577ab59500eda53799ccd3423a0757924f237
+.idea

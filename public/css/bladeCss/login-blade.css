@@ -1,0 +1,9 @@
+/*header .inner nav ul li a,header .inner nav ul li a.active,header .inner nav ul li a:hover{border-bottom:none !important;}
+header .inner nav ul li a{line-height:53px;}
+header .inner .logo{margin-top: 11px;}*/
+#mobile-menu .btn{padding: 0px 12px !important;line-height:24px; display: block;}
+/*header .inner .mobile-links{margin-top:0;}*/
+#mobile-menu .btn:hover,#mobile-menu .btn:focus{box-shadow:none !important;}
+.list-check>li{margin-bottom: 3px;padding-left: 0px;position: relative;list-style: none;line-height: 23px;}
+.bold { text-decoration: none !important; }
+.invalid-input { color: #fa4754; border-bottom: 1px solid #fa4754;}

@@ -1,0 +1,9 @@
+{
+    "name": "stripecard",
+    "version": "1.0",
+    "display_name": "Stripe Card",
+    "description": "Card Payment with Stripe",
+    "author": "Jovan",
+    "category": "payment",
+    "has_installer": true
+}

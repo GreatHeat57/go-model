@@ -1,0 +1,40 @@
+/* ======================== */
+/* FORM VALIDATOR CSS STYLE */
+/* ======================== */
+.form-input-error-msg {
+    display: none;
+    color: red;
+    font-weight: bold;
+    font-size: 0.8em;
+    overflow: hidden;
+}
+.form-input-error-msg.show-error {
+    display: block;
+}
+.form-input-error-msg {
+    color: #fb0c0c;
+    font-weight: bold;
+    font-family: work_sanssemibold, Arial, Tahoma;
+}
+.form-input-error-msg span.error-empty, 
+.form-input-error-msg span.error-wrong {
+    display: none;
+}
+.form-input-error-msg span.error-empty.show-error, 
+.form-input-error-msg span.error-wrong.show-error {
+    display: inline-block;
+}
+.error {
+    border-color: red;
+}
+.has-error .validate {
+    border-color: #fa4754; 
+}
+input[type=email], input[type=password], input[type=text] {
+    /*padding-bottom: 14px;*/
+    /*line-height: 37px !important;
+    padding: 0px !important;*/
+}
+span.fa.fa-exclamation-circle{
+    padding-right: 4px;
+}

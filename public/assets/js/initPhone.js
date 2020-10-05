@@ -1,0 +1,1 @@
+var wpml_string={"url":"https:\/\/devel.go-models.com\/assets","phone_number":"Phone Number","steps_cancel":"Cancel","steps_finish":"Finish","steps_next":"Next","steps_previous":"Previous","steps_loading":"Loading..."};

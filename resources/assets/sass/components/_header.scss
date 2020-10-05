@@ -1,0 +1,199 @@
+header {
+  background: white;
+  height: 70px;
+  .inner {
+    position: relative;
+    margin: 0 auto;
+    max-width: 278px;
+    @include breakpoint($br-mobile-big) {
+      max-width: 372px;
+    }
+    @include breakpoint($br-tablet) {
+      max-width: 712px;
+    }
+    @include breakpoint($br-desktop) {
+      max-width: 904px;
+    }
+    @include breakpoint($br-desktop-big) {
+      max-width: 1278px;
+    }
+    .logo {
+      width: 125px;
+      height: 28px;
+      display: block;
+      font-size: 0;
+      line-height: 0;
+      float: left;
+      background: url(/images/logo.png) left top no-repeat;
+      background-size: 125px;
+      margin: 21px 30px 0 0;
+      @include breakpoint($br-desktop-big) {
+        margin: 21px 35px 0 0;
+      }
+    }
+    nav {
+      display: none;
+      @include breakpoint($br-desktop) {
+        display: block;
+        width: 620px;
+        float: left;
+      }
+      @include breakpoint($br-desktop-big) {
+        width: 650px;
+      }
+      ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        li {
+          display: inline-block;
+          margin-right: 15px;
+          @include breakpoint($br-desktop-big) {
+            margin-right: 18px;
+          }
+          &:last-of-type {
+            margin: 0;
+          }
+          a {
+            height: 70px;
+            line-height: 68px;
+            display: block;
+            font-family: $work_sansbold;
+            font-size: $f-smaller2;
+            color: $primary-color;
+            text-decoration: none;
+            border-bottom: 4px solid white;
+            &:hover,
+            &.active {
+              border-bottom: 4px solid $blue;
+            }
+            &.dd {
+              padding: 0 12px 0 0;
+              background: url(/images/arrows/down.png) right center no-repeat;
+              background-size: 8px;
+            }
+          }
+        }
+      }
+    }
+    .languages {
+      position: relative;
+      z-index: 2000;
+      height: 35px;
+      float: right;
+      margin: 19px 15px 0 0;
+      font-family: $work_sansbold;
+      font-size: $f-smaller2;
+      display: none;
+      @include breakpoint($br-desktop-big) {
+        display: block;
+      }
+      .link {
+        width: 60px;
+        display: block;
+        position: relative;
+        text-decoration: none;
+        height: 35px;
+        line-height: 35px;
+        padding: 0 18px;
+        background: url(/images/icons/language.png) left center no-repeat;
+        background-size: 13px;
+        &:after {
+          width: 8px;
+          height: 5px;
+          display: block;
+          content: ' ';
+          font-size: 0;
+          line-height: 0;
+          position: absolute;
+          top: 15px;
+          right: 7px;
+          background: url(/images/arrows/down.png) left center no-repeat;
+          background-size: 8px;
+        }
+      }
+      ul {
+        display: none;
+        background: white;
+        border: $def-border-size solid $blue-light;
+        border-top: 0;
+        li {
+          display: block;
+          border-bottom: $def-border-size solid $blue-light;
+          &:last-of-type {
+            border: 0;
+          }
+          a {
+            display: block;
+            padding: 5px 0 5px 18px;
+          }
+        }
+      }
+    }
+    .account {
+      height: 35px;
+      float: right;
+      margin-top: 18px;
+      display: none;
+      @include breakpoint($br-desktop-big) {
+        display: block;
+      }
+      a {
+        display: inline-block;
+        height: 35px;
+        line-height: 35px;
+        font-family: $work_sansbold;
+        font-size: $f-smaller;
+        padding: 0 20px;
+        @include border-radius(2px);
+        text-decoration: none;
+        &.register {
+          background: $green;
+          border: $def-border-size solid $green;
+          color: white;
+          margin-left: 15px;
+          &:hover {
+            background: $green-light;
+            border-color: $green-light;
+          }
+        }
+        &.login {
+          border: $def-border-size solid $button-border;
+          &:hover {
+            border-color: $primary-color;
+          }
+        }
+      }
+    }
+    .mobile-links {
+      text-align: right;
+      float: right;
+      width: 100px;
+      height: 40px;
+      margin-top: 15px;
+      display: block;
+      @include breakpoint($br-desktop-big) {
+        display: none;
+      }
+      a {
+        display: block;
+        float: right;
+        margin-left: 9px;
+        width: 40px;
+        height: 40px;
+        font-size: 0;
+        line-height: 0;
+        border: $def-border-size solid $blue-light;
+        @include border-radius(2px);
+        &.profile {
+          background: url(/images/icons/profile.png) center center no-repeat;
+          background-size: 25px;
+        }
+        &.mobile-menu {
+          background: url(/images/icons/menu.png) center center no-repeat;
+          background-size: 21px;
+        }
+      }
+    }
+  }
+}

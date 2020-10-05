@@ -1,0 +1,178 @@
+@font-face {
+  font-family: 'work_sansblack';
+  src: url('../../../public/fonts/worksans/worksans-black-webfont.eot');
+  src: url('../../../public/fonts/worksans/worksans-black-webfont.eot?#iefix') format('embedded-opentype'),
+  url('../../../public/fonts/worksans/worksans-black-webfont.woff2') format('woff2'),
+  url('../../../public/fonts/worksans/worksans-black-webfont.woff') format('woff'),
+  url('../../../public/fonts/worksans/worksans-black-webfont.svg#work_sansblack') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'work_sansbold';
+  src: url('../../../public/fonts/worksans/worksans-bold-webfont.eot');
+  src: url('../../../public/fonts/worksans/worksans-bold-webfont.eot?#iefix') format('embedded-opentype'),
+  url('../../../public/fonts/worksans/worksans-bold-webfont.woff2') format('woff2'),
+  url('../../../public/fonts/worksans/worksans-bold-webfont.woff') format('woff'),
+  url('../../../public/fonts/worksans/worksans-bold-webfont.svg#work_sansbold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'work_sansextrabold';
+  src: url('../../../public/fonts/worksans/worksans-extrabold-webfont.eot');
+  src: url('../../../public/fonts/worksans/worksans-extrabold-webfont.eot?#iefix') format('embedded-opentype'),
+  url('../../../public/fonts/worksans/worksans-extrabold-webfont.woff2') format('woff2'),
+  url('../../../public/fonts/worksans/worksans-extrabold-webfont.woff') format('woff'),
+  url('../../../public/fonts/worksans/worksans-extrabold-webfont.svg#work_sansextrabold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'work_sansextralight';
+  src: url('../../../public/fonts/worksans/worksans-extralight-webfont.eot');
+  src: url('../../../public/fonts/worksans/worksans-extralight-webfont.eot?#iefix') format('embedded-opentype'),
+  url('../../../public/fonts/worksans/worksans-extralight-webfont.woff2') format('woff2'),
+  url('../../../public/fonts/worksans/worksans-extralight-webfont.woff') format('woff'),
+  url('../../../public/fonts/worksans/worksans-extralight-webfont.svg#work_sansextralight') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'work_sanslight';
+  src: url('../../../public/fonts/worksans/worksans-light-webfont.eot');
+  src: url('../../../public/fonts/worksans/worksans-light-webfont.eot?#iefix') format('embedded-opentype'),
+  url('../../../public/fonts/worksans/worksans-light-webfont.woff2') format('woff2'),
+  url('../../../public/fonts/worksans/worksans-light-webfont.woff') format('woff'),
+  url('../../../public/fonts/worksans/worksans-light-webfont.svg#work_sanslight') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'work_sansmedium';
+  src: url('../../../public/fonts/worksans/worksans-medium-webfont.eot');
+  src: url('../../../public/fonts/worksans/worksans-medium-webfont.eot?#iefix') format('embedded-opentype'),
+  url('../../../public/fonts/worksans/worksans-medium-webfont.woff2') format('woff2'),
+  url('../../../public/fonts/worksans/worksans-medium-webfont.woff') format('woff'),
+  url('../../../public/fonts/worksans/worksans-medium-webfont.svg#work_sansmedium') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'work_sansregular';
+  src: url('../../../public/fonts/worksans/worksans-regular-webfont.eot');
+  src: url('../../../public/fonts/worksans/worksans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+  url('../../../public/fonts/worksans/worksans-regular-webfont.woff2') format('woff2'),
+  url('../../../public/fonts/worksans/worksans-regular-webfont.woff') format('woff'),
+  url('../../../public/fonts/worksans/worksans-regular-webfont.svg#work_sansregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'work_sanssemibold';
+  src: url('../../../public/fonts/worksans/worksans-semibold-webfont.eot');
+  src: url('../../../public/fonts/worksans/worksans-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+  url('../../../public/fonts/worksans/worksans-semibold-webfont.woff2') format('woff2'),
+  url('../../../public/fonts/worksans/worksans-semibold-webfont.woff') format('woff'),
+  url('../../../public/fonts/worksans/worksans-semibold-webfont.svg#work_sanssemibold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'work_sansthin';
+  src: url('../../../public/fonts/worksans/worksans-thin-webfont.eot');
+  src: url('../../../public/fonts/worksans/worksans-thin-webfont.eot?#iefix') format('embedded-opentype'),
+  url('../../../public/fonts/worksans/worksans-thin-webfont.woff2') format('woff2'),
+  url('../../../public/fonts/worksans/worksans-thin-webfont.woff') format('woff'),
+  url('../../../public/fonts/worksans/worksans-thin-webfont.svg#work_sansthin') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+$work_sansblack: 'work_sansblack', arial, tahoma;
+$work_sansbold: 'work_sansbold', arial, tahoma;
+$work_sansextrabold: 'work_sansextrabold', arial, tahoma;
+$work_sansextralight: 'work_sansextralight', arial, tahoma;
+$work_sanslight: 'work_sanslight', arial, tahoma;
+$work_sansmedium: 'work_sansmedium', arial, tahoma;
+$work_sansregular: 'work_sansregular', arial, tahoma;
+$work_sanssemibold: 'work_sanssemibold', arial, tahoma;
+$work_sansthin: 'work_sansthin', arial, tahoma;
+
+@font-face {
+  font-family: 'prataregular';
+  src: url('../../../public/fonts/prata/prata-regular-webfont.eot');
+  src: url('../../../public/fonts/prata/prata-regular-webfont.eot?#iefix') format('embedded-opentype'),
+  url('../../../public/fonts/prata/prata-regular-webfont.woff2') format('woff2'),
+  url('../../../public/fonts/prata/prata-regular-webfont.woff') format('woff'),
+  url('../../../public/fonts/prata/prata-regular-webfont.svg#prataregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+$prataregular: 'prataregular', arial, tahoma;
+
+@font-face {
+  font-family: 'playfair_displayblack';
+  src: url('../../../public/fonts/playfair/playfairdisplay-black-webfont.eot');
+  src: url('../../../public/fonts/playfair/playfairdisplay-black-webfont.eot?#iefix') format('embedded-opentype'),
+  url('../../../public/fonts/playfair/playfairdisplay-black-webfont.woff2') format('woff2'),
+  url('../../../public/fonts/playfair/playfairdisplay-black-webfont.woff') format('woff'),
+  url('../../../public/fonts/playfair/playfairdisplay-black-webfont.svg#playfair_displayblack') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'playfair_displayblack_italic';
+  src: url('../../../public/fonts/playfair/playfairdisplay-blackitalic-webfont.eot');
+  src: url('../../../public/fonts/playfair/playfairdisplay-blackitalic-webfont.eot?#iefix') format('embedded-opentype'),
+  url('../../../public/fonts/playfair/playfairdisplay-blackitalic-webfont.woff2') format('woff2'),
+  url('../../../public/fonts/playfair/playfairdisplay-blackitalic-webfont.woff') format('woff'),
+  url('../../../public/fonts/playfair/playfairdisplay-blackitalic-webfont.svg#playfair_displayblack_italic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'playfair_displaybold';
+  src: url('../../../public/fonts/playfair/playfairdisplay-bold-webfont.eot');
+  src: url('../../../public/fonts/playfair/playfairdisplay-bold-webfont.eot?#iefix') format('embedded-opentype'),
+  url('../../../public/fonts/playfair/playfairdisplay-bold-webfont.woff2') format('woff2'),
+  url('../../../public/fonts/playfair/playfairdisplay-bold-webfont.woff') format('woff'),
+  url('../../../public/fonts/playfair/playfairdisplay-bold-webfont.svg#playfair_displaybold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'playfair_displaybold_italic';
+  src: url('../../../public/fonts/playfair/playfairdisplay-bolditalic-webfont.eot');
+  src: url('../../../public/fonts/playfair/playfairdisplay-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+  url('../../../public/fonts/playfair/playfairdisplay-bolditalic-webfont.woff2') format('woff2'),
+  url('../../../public/fonts/playfair/playfairdisplay-bolditalic-webfont.woff') format('woff'),
+  url('../../../public/fonts/playfair/playfairdisplay-bolditalic-webfont.svg#playfair_displaybold_italic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'playfair_displayitalic';
+  src: url('../../../public/fonts/playfair/playfairdisplay-italic-webfont.eot');
+  src: url('../../../public/fonts/playfair/playfairdisplay-italic-webfont.eot?#iefix') format('embedded-opentype'),
+  url('../../../public/fonts/playfair/playfairdisplay-italic-webfont.woff2') format('woff2'),
+  url('../../../public/fonts/playfair/playfairdisplay-italic-webfont.woff') format('woff'),
+  url('../../../public/fonts/playfair/playfairdisplay-italic-webfont.svg#playfair_displayitalic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'playfair_displayregular';
+  src: url('../../../public/fonts/playfair/playfairdisplay-regular-webfont.eot');
+  src: url('../../../public/fonts/playfair/playfairdisplay-regular-webfont.eot?#iefix') format('embedded-opentype'),
+  url('../../../public/fonts/playfair/playfairdisplay-regular-webfont.woff2') format('woff2'),
+  url('../../../public/fonts/playfair/playfairdisplay-regular-webfont.woff') format('woff'),
+  url('../../../public/fonts/playfair/playfairdisplay-regular-webfont.svg#playfair_displayregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+$playfair_displayblack: 'playfair_displayblack', arial, tahoma;
+$playfair_displayblack_italic: 'playfair_displayblack_italic', arial, tahoma;
+$playfair_displaybold: 'playfair_displaybold', arial, tahoma;
+$playfair_displaybold_italic: 'playfair_displaybold_italic', arial, tahoma;
+$playfair_displayitalic: 'playfair_displayitalic', arial, tahoma;
+$playfair_displayregular: 'playfair_displayregular', arial, tahoma;

@@ -1,0 +1,14 @@
+.pb-150{ padding-bottom: 150px; }
+.pac-container{ z-index: 11111 !important; }
+.border-bottom-error{ border-bottom: solid 1px #fb0c0c !important; }
+.checkbox-error { color: red !important; }
+.krajee-default.file-preview-frame:hover:not(.file-preview-error) { box-shadow: 0 0 5px 0 #666666; }
+.custom_birthday { width: 30%; float: left; margin-right: 10px; }
+@media screen and (min-width: 768px){ #termPopup .modal-sm { width: 60%; }}
+#packagesTable > tbody > tr:nth-child(1) > td:nth-child(2), #packagesTable > tbody > tr:nth-child(1) > td:nth-child(3), #packagesTable > tbody > tr:nth-child(1) > td:nth-child(4) { width: 15%; }
+.features{ padding: 10px 40px; }
+.features ul{ list-style-type: square; }
+#packagesTable{ font-size: 13px; }
+.well{ width: 96%; margin-left: 2%; }
+.mfp-container { position: fixed !important;}
+.body-container { position: fixed !important;}
